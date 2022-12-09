@@ -1,0 +1,172 @@
+<!-- info -->
+<!-- alla rows classer går rakt från vänster till höger  -->
+<!-- columner går upp ifrån och ner -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>blekinge!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- det här är den första contanern, som har en billd i sig, med en rad under bilden, som har knapparna på raden som länkar till en anan platts på sidan -->
+  <div class="container">
+    <img src="https://cdn.pixabay.com/photo/2019/06/12/07/44/road-4268577_960_720.jpg" class="img-fluid forstabild">
+    <!-- meny delen börjar- och navbaren kan man ändra färjge här i kåden som kommer-->
+    <nav class="navbar navbar-expand-md bg-white">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Blekinge!">Blekinge!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Karlskrona">Karlskrona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Glassiären">Glassiären</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#film om blekinge">film om blekinge</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- meny delen  slutar-->
+
+    <!-- här börjar länkning till olika sakerS -->
+    <!-- section margin är nav baren id:et är  namnet på knapen som den ska arbeta med    -->
+    <section class="sectionmargin" id="blekinge!">
+     <div class="container">
+      <!-- här visas desplayens över skrift på sidan med storlek 4  -->
+      <h1 class="display-4">Blekinge!</h1>
+      <p> Blekinge var under flera hundra år gränsland mellan Danmark och Sverige. cirka 890 nämns Blekinge som tillhörande svearna i Wulfstans reseskildring. Under vikingatiden påminner Blekinges begravningsseder de som finns i Möre och på Öland rent arkeologiskt.[4] Redan på 1060-talet skall landskapet ha kristnats av biskop Egino från Dalby. Adam av Bremen skriver i fjärde bokens fjortonde kapitel: ”Men om vi vänder tillbaka till det baltiska havets mynning i norr, möter vi först nordmännen, därefter skjuter det danska landskapet Skåne fram, och öster därom bebor götarna ett vidsträckt område upp till Birka”. I fjärde bokens sjunde kapitel skriver Adam följande: ”Skåne är den yttersta delen av Danmark och utgör en halvö”.[5] (Se även: Landamäri, om gamla gränsdragningen mellan Sverige och Danmark.) </p>
+      <!--här är det en knap som säger boka nu  -->
+    </div>
+  </section>
+  <!-- här slutar sektionen  -->
+
+
+  <!-- här börjar en ny sektion   och sectiomarign ger luft i menan föra sektion och den nya sectionen  -->
+  <section class="sectionmargin" id="Karlskrona">
+    <div class="container">      
+      <!--  står i storlek 4 under knappen boka nu! -->
+      <h1 class="display-4">Karlskrona</h1>
+      <div class="row">
+
+       <!-- kolumn 1 -->
+       <!-- clumen bryter när det är storlek  lg  -->
+       <div class="col-lg cardmargin">
+        <img src="https://cdn.pixabay.com/photo/2020/05/14/19/02/karlskrona-5171013_960_720.jpg" class="img-fluid">
+      </div>
+
+      <!-- kolumn 2  -->
+      <!-- clumen bryter när det är storlek  lg  -->
+      <div class="col-lg cardmargin">
+        <img src="https://cdn.pixabay.com/photo/2020/05/14/19/00/sweden-5171006_960_720.jpg" class="img-fluid">
+      </div>
+
+      <!-- kolumn 3  -->
+      <!-- clumen bryter när det är storlek  lg  -->
+      <div class="col-lg cardmargin">
+        <img src="https://cdn.pixabay.com/photo/2020/05/14/19/01/karlskrona-5171010_960_720.jpg" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  <!-- här slutar sektionen för klumn 1,2 coh 3 -->
+
+
+  <!-- här börjar en ny section med id glassiären med class kaffesection --> 
+  <section class="sectionmargin kaffesection" id="Glassiären"> 
+    <div class="container">
+      <h1 class="display-4"> Glassiären </h1>
+
+      <div class="row">
+        <!-- columnen är 8 -->
+
+        <div class="col-lg-8">
+          <p> En människa som ville ha en bild på glassen, de åt från glassiären på min sida!</p>
+                 <!-- här är en knapp under glass bilden -->
+                   <a href="https://www.visitkarlskrona.se/sv/glassiaren-glassbar" class="btn btn-primary">Glassiären</a>
+
+        </div>
+        <!-- columnen är 4 -->
+        <div class="col-lg-4">
+        <!-- class elmentet har 2 klasser i sig -->
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/1e/2c/fd/20170801-163059-largejpg_rotated_90.jpg" class="img-fluid skugga">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- här slutar sektionen -->
+
+<!-- är börjar en section -->
+  <section class="sectionmargin pytonmardgin " id="film om blekinge">
+    <div class="container">
+      <h1 class="display-4"> Blekinge från ovan</h1>  
+      <div class="row">
+        <!-- här är section text -->
+        <div class="col-lg-6"> En vy över blekinge </div>
+        <div class="col-lg-6">
+      <!-- här är en vido med avstånd 16:9-->
+          <div class=" embed-responsive embed-ronsive-16by9"></div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/pTumG_51BTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- är sluttar en section -->
+  </section>
+ <!-- här böjar min fotter -->
+  <footer class="footer mt-auto py-3 sidfot sectionmargin">
+    <div class="container">
+      <div class="row">
+
+<!--  fotter del 1/4 -->
+      <div class="col-lg-1 kolumnpadding"></div>
+      <div class="col-lg-1 kolumnpadding"> 
+
+      <strong>transport</strong><br>
+      <a href="https://blekingetrafiken.se/#/">blekingetrafik</a><br>
+
+
+      </div>
+
+<!--  fotter del 2/4 -->
+            <div class="col-lg-1 kolumnpadding"></div>
+                  <div class="col-lg-1 kolumnpadding">
+                  <strong>event</strong><br>
+                  <a href="https://www.visitblekinge.se/evenemang">visitblekinge</a><br>
+                  </div>
+
+<!--  fotter del 3/4 -->
+                        <div class="col-lg-1 kolumnpadding"></div>
+                              <div class="col-lg-1 kolumnpadding">
+                              <strong>frågor</strong></br>
+                              </div>
+<!--  fotter del 4/4 -->
+                              <div class="col-lg-1 kolumnpadding"></div>
+                              <div class="col-lg-1 kolumnpadding">
+                                <strong>turist info</strong><br>
+                               <a href="https://www.visitblekinge.se/karlskrona-turistcenter">karlskrona</a><br>
+                               <a href="https://www.visitblekinge.se/ronneby/turistinfo">Ronneby</a><br>
+                               <a href="https://turistmal.se/?index=item&id=3479"> karlshmn</a><br>
+                              </div>
+
+
+                               <!-- här sluttar min fotter -->
+
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+
+
+
+

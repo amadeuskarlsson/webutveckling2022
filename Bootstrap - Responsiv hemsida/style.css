@@ -1,0 +1,40 @@
+body{
+	background-color: lightgrey;
+}
+a {
+       text-decoration: none;
+       color: lightgrey;
+   }
+
+.sectionmargin{
+	margin-top: 50px;
+}
+.cardmargin{
+	margin-top: 20px;
+}
+.kaffesection{
+	background-color: wite;
+	padding: 30px;
+}
+
+.skugga{
+	box-shadow: 10px 10px 15px darkgreen;
+}
+.sidfot{
+	padding: 30px;
+	margin-top 50px;
+	background-color: grey;
+	color: white;
+}
+.kolumnpadding{
+	padding-bottom: 15px;
+}
+.pytonmargin{
+	margin-bottom: 150px
+}
+
+.forstabild {
+  height: 600px;
+  width: 150%;
+
+}
